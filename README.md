@@ -24,7 +24,10 @@ Descrição textual das regras de negócio definidas como um  subconjunto do mun
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
+> O sistema proposto para o " shoesqdele" conterá as informações aqui detalhadas. Serão
+armazenados do usuario: nome,idade,sexo,altura, peso do usuário,e-mail e modelo de tenis que usa Apos isso
+serão armazenados a partir de sensores a distancia que ele percorre,e as calorias gastas e
+tempo de exercício feito..Dos tenis serao guardados os seguintes dados:o nome do modelo,seu preço,a quandidade disponivel,as cores e os tamanhos disponiveis.Do exercicio serão armazenados: O nome e a quantidade media de calorias gastas por hora.E dos funcionarios o sistema armazenara seu nome,rg,cpf,salario,data da contratação e seu supervisor. 
 
 ## Marco de Entrega 01 em: (06/05/2019)<br>
 
