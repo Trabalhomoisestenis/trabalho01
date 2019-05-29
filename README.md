@@ -44,9 +44,13 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     
 > A Empresa DevCom precisa inicialmente dos seguintes relatórios:
 *Relatório que informe os tênis que são usados pelos usuários incluindo as seguintes informações: Tamanho do tênis, modelo, preço, quantidade de usuários que o usam.
+
 *Relatório que informe os exercícios mais selecionados por cada usuário incluindo as seguintes informações: Nome do esporte, Popularidade de cada esporte, caloria media gasta.
+
 *Relatório que informe os supervisores responsáveis por funcionário incluindo as seguintes informações: nome do supervisor, nome do funcionário.
+
 *Relatório que informe os mais usados para cada tipo de esporte contendo as seguintes informações: Modelo do tênis, Nome do esporte.
+
 *Relatório que informe o progresso feito por cada usuário em um mês em relação a sua meta escolhida incluindo as seguintes informações: Nome do usuário, Meta de calorias, calorias perdidas.
  
 ## Marco de Entrega 03 em: (13/05/2019)<br>
