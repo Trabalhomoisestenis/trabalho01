@@ -43,6 +43,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 > A Empresa DevCom precisa inicialmente dos seguintes relatórios:
+
 *Relatório que informe os tênis que são usados pelos usuários incluindo as seguintes informações: Tamanho do tênis, modelo, preço, quantidade de usuários que o usam.
 
 *Relatório que informe os exercícios mais selecionados por cada usuário incluindo as seguintes informações: Nome do esporte, Popularidade de cada esporte, caloria media gasta.
