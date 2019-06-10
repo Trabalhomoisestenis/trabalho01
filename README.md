@@ -13,11 +13,11 @@ Calebe Carias:calebecarias@gmail.com
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> A empresa “tenON?” visa criar projetos para colaborar para a melhora da saúde da sociedade.
+> A empresa “tenON” visa criar projetos para colaborar para a melhora da saúde da sociedade.
 Para ajudar as pessoas a melhorar seus desempenhos na prática de atividade física, quisemos
-desenvolver esse projeto. O tênis “shoesqdele” tem como objetivo gerenciar todas as
+desenvolver esse projeto. Os tênis da linha “shoesqdele”, que contem um sensor cujo objetivo é gerenciar todas as
 informações ao desenvolvimento das atividades físicas do usuário. Para fazer isso o sistema
-tem que armazenar informações relativas as atividades físicas praticadas, como: Distancia
+tem que armazenar informações relativas as atividades físicas praticadas, como: Distância
 percorrida, peso, calorias gastas e velocidade média. O sistema deverá gerar relatórios que
 ajudarão o usuário com sua performance.
  
@@ -30,10 +30,10 @@ Descrição textual das regras de negócio definidas como um  subconjunto do mun
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
-> O sistema proposto para o " shoesqdele" conterá as informações aqui detalhadas. Serão
-armazenados do usuario: nome,idade,sexo,altura, peso do usuário,e-mail e modelo de tenis que usa Apos isso
-serão armazenados a partir de sensores a distancia que ele percorre,e as calorias gastas e
-tempo de exercício feito..Dos tenis serao guardados os seguintes dados:o nome do modelo,seu preço,a quandidade disponivel,as cores e os tamanhos disponiveis.Do exercicio serão armazenados: O nome e a quantidade media de calorias gastas por hora.E dos funcionarios o sistema armazenara seu nome,rg,cpf,salario,data da contratação e seu supervisor. 
+> O sistema proposto para os tênis "shoesqdele" conterá as informações aqui detalhadas. Serão
+armazenados do usuario: nome,idade,sexo,altura, rg, peso inicial do usuário, e modelo de tenis que usa. Após isso
+serão armazenados a partir de sensores o código do mesmo, a distância que o usuário percorre e as calorias gastas e
+tempo de exercício feito.Dos tenis serao guardados os seguintes dados:o nome do modelo,a cores e o tamanho. Do exercicio serão armazenados: O nome e a quantidade media de calorias gastas por hora.E dos funcionarios o sistema armazenara seu nome,rg,cpf,salario,data da contratação e seu supervisor. 
 
 ## Marco de Entrega 01 em: (06/05/2019)<br>
 
@@ -51,15 +51,13 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
+> A Empresa tenON precisa inicialmente dos seguintes relatórios:
 
-*Relatório que informe os tênis que são usados pelos usuários incluindo as seguintes informações: Tamanho do tênis, modelo, preço, quantidade de usuários que o usam.
+*Relatório que informe o desempenho do usuário no dia em que ele praticou atividades físicas incluindo as calorias gastas, distância percorrida e o tênis utilizado
 
-*Relatório que informe os exercícios mais selecionados por cada usuário incluindo as seguintes informações: Nome do esporte, Popularidade de cada esporte, caloria media gasta.
+*Relatório que informe os tênis mais apropriados para cade tipo de exercício.
 
-*Relatório que informe os supervisores responsáveis por funcionário incluindo as seguintes informações: nome do supervisor, nome do funcionário.
-
-*Relatório que informe os mais usados para cada tipo de esporte contendo as seguintes informações: Modelo do tênis, Nome do esporte.
+*Relatório que informe os exercícios mais apropriados para a meta mensal do usuário contendo as informações de calorias recomendadas e o tempo recomendado de exercício por dia.
 
 *Relatório que informe o progresso feito por cada usuário em um mês em relação a sua meta escolhida incluindo as seguintes informações: Nome do usuário, Meta de calorias, calorias perdidas.
  
