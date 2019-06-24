@@ -32,8 +32,8 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 > O sistema proposto para os tênis "shoesqdele" conterá as informações aqui detalhadas. Serão
 armazenados do usuario: nome,idade,sexo,altura, rg, peso inicial do usuário, e modelo de tenis que usa. Após isso
-serão armazenados a partir de sensores o código do mesmo, a distância que o usuário percorre e as calorias gastas e
-tempo de exercício feito.Dos tenis serao guardados os seguintes dados:o nome do modelo,a cores e o tamanho. Do exercicio serão armazenados: O nome e a quantidade media de calorias gastas por hora.E dos funcionarios o sistema armazenara seu nome,rg,cpf,salario,data da contratação e seu supervisor. 
+serão armazenados pelos sensores: seu código, as coordenadas de distância que o usuário percorre e as calorias gastas e
+tempo de exercício feito.Dos tenis serao guardados os seguintes dados:o nome do modelo e o tamanho. Do exercicio serão armazenados: O nome e a quantidade media de calorias gastas por hora. 
 
 ## Marco de Entrega 01 em: (06/05/2019)<br>
 
