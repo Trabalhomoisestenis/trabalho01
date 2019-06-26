@@ -135,12 +135,9 @@ Exercícios: Tabela que armazena as informações relativas a cada exercício:
 	Nome: Campo que armazena o nome do exercício
 
 	Calorias_gastas_hora: Campo que armazena a quantidade de calorias gastas por hora 
-	que aquele exercício específico promove [objeto]: [descrição do objeto]
+	que aquele exercício específico promove 
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+  
 ## Marco de Entrega 06 em: (22/05/2019)<br>
 
 ### 6	MODELO LÓGICO<br>
