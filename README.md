@@ -96,7 +96,46 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ## Marco de Entrega 05 em: (20/05/2019)<br>
 
 #### 5.2 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
+   USUÁRIO: Tabela que armazena as informações relativas ao usuário.
+
+	RG: Campo que armazena o número do Registro Geral de cada usuário.
+	
+	Nome: Campo que armazena o nome do usuário.
+
+	Idade: Campo que armazena a idade do usuário.
+	
+	Peso Inicial: Campo que armazena o peso inicial do usuário ao entrar no aplicativo.
+
+	Sexo: Campo que armazena o sexo do usuário.
+
+
+
+TÊNIS: Tabela que armazena as informações relativas ao tênis adquirido pelo usuário.	
+	
+	Código_Tênis: Campo que armazena o código específico de um tênis.
+
+	Sensor_Tênis: Campo que armazena o código do sensor que está sendo usado no tênis.
+
+	Modelo: Campo que armazena o modelo do tênis.
+
+	Especialidade: Campo que armazena a especialidade do exercício do tênis.
+
+
+
+SENSOR: Tabela que armazena as informações relativas ao sensor adquirido pelo usuário:
+
+	Código_Sensor: Campo quer armazena o código do sensor.
+
+	Peso_atual: Campo que armazena o peso atual do usuário.
+
+	
+
+Exercícios: Tabela que armazena as informações relativas a cada exercício:
+
+	Nome: Campo que armazena o nome do exercício
+
+	Calorias_gastas_hora: Campo que armazena a quantidade de calorias gastas por hora 
+	que aquele exercício específico promove [objeto]: [descrição do objeto]
     
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
