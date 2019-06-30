@@ -69,9 +69,13 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipint/trabalho01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
-
     
+    
+    
+    
+    
+    (    https://github.com/Trabalhomoisestenis/trabalho01/blob/master/shoestabela.ods)
+
 ## Marco de Entrega 04 em: (15/05/2019)<br>
 
 ### 5.MODELO CONCEITUAL<br>
