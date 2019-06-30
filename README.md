@@ -150,9 +150,67 @@ Exercícios: Tabela que armazena as informações relativas a cada exercício:
         (não serão aceitos modelos que não estejam em conformidade)
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+        /* Lógico_1: */
 
+CREATE TABLE Usuario (
+    RG int PRIMARY KEY,
+    Nome varchar(100),
+    Idade int,
+    Peso_Inicial float,
+    Sexo char(1),
+    Altura float
+);
+
+CREATE TABLE Tenis (
+    Codigo_Tenis int PRIMARY KEY,
+    Modelo varchar(40),
+    Especialidade varchar(100)
+);
+
+CREATE TABLE Sensor (
+    Codigo_Sensor int PRIMARY KEY
+);
+
+CREATE TABLE tipo_de_exercicio (
+    Nome varchar(40),
+    calorias_horas float,
+    Codigo int PRIMARY KEY
+);
+
+CREATE TABLE Exercicio (
+    data_inicio date,
+    data_fim date,
+    Latitude varchar(1000),
+    Longitude varchar(1000),
+    Horario_Inicio time,
+    Horario_Fim time,
+    Calorias_Gastas float,
+    Peso_atual float,
+    fk_tipo_de_exercicio_Codigo int,
+    fk_Usuario_RG int,
+    fk_Sensor_Codigo_Sensor int,
+    fk_Tenis_Codigo_Tenis int
+);
+ 
+ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_1
+    FOREIGN KEY (fk_tipo_de_exercicio_Codigo)
+    REFERENCES tipo_de_exercicio (Codigo)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_2
+    FOREIGN KEY (fk_Usuario_RG)
+    REFERENCES Usuario (RG)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_3
+    FOREIGN KEY (fk_Sensor_Codigo_Sensor)
+    REFERENCES Sensor (Codigo_Sensor)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_4
+    FOREIGN KEY (fk_Tenis_Codigo_Tenis)
+    REFERENCES Tenis (Codigo_Tenis)
+    ON DELETE RESTRICT;
 ## Marco de Entrega 07 em: (27/05/2019)<br>
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
