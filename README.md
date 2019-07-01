@@ -300,12 +300,80 @@ VALUES
 INSERT INTO EXERCICIO(data_inicio,data_fim,latitude,longitude,horario_inicio,horario_fim,calorias_gastas,peso_atual,fk_tipo_de_exercicio_codigo,fk_usuario_rg,fk_sensor_codigo_sensor,fk_tenis_codigo_tenis)
 VALUES('2019-06-30','2019-06-30',10,50,'16:00','17:00',760,59,1,12345,4321,1010),('2019-07-01','2019-07-01',20,60,'17:00','18:00',584,60,2,23456,5432,2020),('2019-07-02','2019-07-02',30,120,'18:00','19:00',715,65,3,34567,6543,3030),('2019-07-03','2019-07-03',40,160,'19:00','20:00',315,71,4,45678,7654,4040),('2019-07-04','2019-07-04',50,10,'20:00','21:00',350,82,5,56789,8765,5050),('2019-07-05','2019-07-05',60,20,'21:00','22:00',610,47,6,67890,9876,6060),('2019-07-06','2019-07-06',70,30,'22:00','23:00',610,58,7,11234,1987,7070),('2019-07-07','2019-07-07',80,80,'23:00','00:00',580,67,8,22345,2987,8080),('2019-07-08','2019-07-09',90,110,'00:00','01:00',470,62,9,33456,3987,9090),('2019-07-09','2019-07-09',10,20,'01:00','02:00',440,35,10,44567,4874,1212)
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+  DROP TABLE usuario
+  DROP TABLE tipo_de_exercicio
+  DROP TABLE exercicio
+  DROP TABLE sensor
+   CREATE TABLE Usuario (
+    RG int PRIMARY KEY,
+    Nome varchar(100),
+    Idade int,
+    Peso_Inicial float,
+    Sexo char(1),
+    Altura float
+);
 
+CREATE TABLE Tenis (
+    Codigo_Tenis int PRIMARY KEY,
+    Modelo varchar(40),
+    Especialidade varchar(100)
+);
+
+CREATE TABLE Sensor (
+    Codigo_Sensor int PRIMARY KEY
+);
+
+CREATE TABLE tipo_de_exercicio (
+    Nome varchar(40),
+    calorias_horas float,
+    Codigo int PRIMARY KEY
+);
+
+CREATE TABLE Exercicio (
+    data_inicio date,
+    data_fim date,
+    Latitude varchar(1000),
+    Longitude varchar(1000),
+    Horario_Inicio time,
+    Horario_Fim time,
+    Calorias_Gastas float,
+    Peso_atual float,
+    fk_tipo_de_exercicio_Codigo int,
+    fk_Usuario_RG int,
+    fk_Sensor_Codigo_Sensor int,
+    fk_Tenis_Codigo_Tenis int
+);
+ 
+ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_1
+    FOREIGN KEY (fk_tipo_de_exercicio_Codigo)
+    REFERENCES tipo_de_exercicio (Codigo)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_2
+    FOREIGN KEY (fk_Usuario_RG)
+    REFERENCES Usuario (RG)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_3
+    FOREIGN KEY (fk_Sensor_Codigo_Sensor)
+    REFERENCES Sensor (Codigo_Sensor)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_4
+    FOREIGN KEY (fk_Tenis_Codigo_Tenis)
+    REFERENCES Tenis (Codigo_Tenis)
+    ON DELETE RESTRICT;
+  INSERT INTO SENSOR(codigo_sensor)
+VALUES(4321),(5432),(6543),(7654),(8765),(9876),(1987),(2987),(3987),(4874);
+)
+INSERT INTO tipo_de_exercicio (codigo,nome,calorias_horas)
+VALUES
+(1,'futebol',760),(2,'basquete',584),(3,'corrida_obstaculo',715),(4,'golfe',315),(5,'volei',350),(6,'tenis',610),(7,'corrida',610),(8,'futebol americano',580),(9,'remo',470),(10,'caminhada',440)
+INSERT INTO USUARIO (rg,nome,idade,peso_inicial,sexo,altura)
+VALUES
+(12345,'Calebe',17,59,M,1.71),(23456,'Davi',15,60,M,1.75),(34567,'Alessandra',25,65,F,1.82),(4,'Rodolfo',22,71,M,1.71),(56789,'Gustavo',33,82,M,1.82),(67890,'Buteri',13,47,M,1.73),(11234,'Maira',18,58,F,1.91),(22345,'Rosilene',31,67,F,1.55),(33456,'Felipe Noronha',27,62,M,1.7),(44567,'Pedro',60,35,M,1.61)
+INSERT INTO EXERCICIO(data_inicio,data_fim,latitude,longitude,horario_inicio,horario_fim,calorias_gastas,peso_atual,fk_tipo_de_exercicio_codigo,fk_usuario_rg,fk_sensor_codigo_sensor,fk_tenis_codigo_tenis)
+VALUES('2019-06-30','2019-06-30',10,50,'16:00','17:00',760,59,1,12345,4321,1010),('2019-07-01','2019-07-01',20,60,'17:00','18:00',584,60,2,23456,5432,2020),('2019-07-02','2019-07-02',30,120,'18:00','19:00',715,65,3,34567,6543,3030),('2019-07-03','2019-07-03',40,160,'19:00','20:00',315,71,4,45678,7654,4040),('2019-07-04','2019-07-04',50,10,'20:00','21:00',350,82,5,56789,8765,5050),('2019-07-05','2019-07-05',60,20,'21:00','22:00',610,47,6,67890,9876,6060),('2019-07-06','2019-07-06',70,30,'22:00','23:00',610,58,7,11234,1987,7070),('2019-07-07','2019-07-07',80,80,'23:00','00:00',580,67,8,22345,2987,8080),('2019-07-08','2019-07-09',90,110,'00:00','01:00',470,62,9,33456,3987,9090),('2019-07-09','2019-07-09',10,20,'01:00','02:00',440,35,10,44567,4874,1212)
 ## Marco de Entrega 08 em: (29/05/2019)<br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
