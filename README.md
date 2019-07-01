@@ -147,9 +147,7 @@ Tipo de Exercícios: Tabela que armazena as informações relativas a cada exerc
 ## Marco de Entrega 06 em: (22/05/2019)<br>
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+       ( https://github.com/Trabalhomoisestenis/trabalho01/blob/master/brmodlogico.png)
 
 ### 7	MODELO FÍSICO<br>
        
