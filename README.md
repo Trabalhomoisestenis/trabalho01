@@ -221,6 +221,11 @@ VALUES('2019-06-30','2019-06-30',10,50,'16:00','17:00',760,59,1,12345,4321,1010)
 INSERT INTO SENSOR(codigo_sensor)
 VALUES(4321),(5432),(6543),(7654),(8765),(9876),(1987),(2987),(3987),(4874);
 )
+INSERT INTO tipo_de_exercicio (codigo,nome,calorias_horas)
+VALUES
+(1,'futebol',760),(2,'basquete',584),(3,'corrida_obstaculo',715),(4,'golfe',315),(5,'volei',350),(6,'tenis',610),(7,'corrida',610),(8,'futebol americano',580),(9,'remo',470),(10,'caminhada',440)
+
+
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
