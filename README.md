@@ -84,7 +84,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/brmodelo_1.png "Modelo Conceitual")
+![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/brmod.png "Modelo Conceitual")
     
     B) QUALIDADE 
         Garantir que a semântica dos atributos seja clara no esquema
