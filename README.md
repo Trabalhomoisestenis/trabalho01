@@ -215,8 +215,12 @@ ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_4
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
-        b) formato .SQL
+INSERT INTO EXERCICIO(data_inicio,data_fim,latitude,longitude,horario_inicio,horario_fim,calorias_gastas,peso_atual,fk_tipo_de_exercicio_codigo,fk_usuario_rg,fk_sensor_codigo_sensor,fk_tenis_codigo_tenis)
+VALUES('2019-06-30','2019-06-30',10,50,'16:00','17:00',760,59,1,12345,4321,1010),('2019-07-01','2019-07-01',20,60,'17:00','18:00',584,60,2,23456,5432,2020),('2019-07-02','2019-07-02',30,120,'18:00','19:00',715,65,3,34567,6543,3030),('2019-07-03','2019-07-03',40,160,'19:00','20:00',315,71,4,45678,7654,4040),('2019-07-04','2019-07-04',50,10,'20:00','21:00',350,82,5,56789,8765,5050),('2019-07-05','2019-07-05',60,20,'21:00','22:00',610,47,6,67890,9876,6060),('2019-07-06','2019-07-06',70,30,'22:00','23:00',610,58,7,11234,1987,7070),('2019-07-07','2019-07-07',80,80,'23:00','00:00',580,67,8,22345,2987,8080),('2019-07-08','2019-07-09',90,110,'00:00','01:00',470,62,9,33456,3987,9090),('2019-07-09','2019-07-09',10,20,'01:00','02:00',440,35,10,44567,4874,1212)
+
+INSERT INTO SENSOR(codigo_sensor)
+VALUES(4321),(5432),(6543),(7654),(8765),(9876),(1987),(2987),(3987),(4874);
+)
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
