@@ -130,8 +130,6 @@ SENSOR: Tabela que armazena as informações relativas ao sensor adquirido pelo 
 
 	Código_Sensor: Campo que armazena o código do sensor.
 	
-	Modelo_sensor: Campo que armazena o tipo do sensor usado 
-
 	
 
 Tipo de Exercícios: Tabela que armazena as informações relativas a cada exercício:
