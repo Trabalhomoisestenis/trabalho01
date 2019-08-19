@@ -180,8 +180,8 @@ CREATE TABLE tipo_de_exercicio (
 CREATE TABLE Exercicio (
     data_inicio date,
     data_fim date,
-    Latitude varchar(30),
-    Longitude varchar(30),
+    Latitude float,
+    Longitude float,
     Horario_Inicio time,
     Horario_Fim time,
     Calorias_Gastas float,
@@ -242,7 +242,7 @@ CREATE TABLE Sensor ( Codigo_Sensor int PRIMARY KEY );
 
 CREATE TABLE tipo_de_exercicio ( Nome varchar(40), calorias_horas float, Codigo int PRIMARY KEY );
 
-CREATE TABLE Exercicio ( data_inicio date, data_fim date, Latitude varchar(30), Longitude varchar(30), Horario_Inicio time, Horario_Fim time, Calorias_Gastas float, Peso_atual float, fk_tipo_de_exercicio_Codigo int, fk_Usuario_RG int, fk_Sensor_Codigo_Sensor int, fk_Tenis_Codigo_Tenis int );
+CREATE TABLE Exercicio ( data_inicio date, data_fim date, Latitude float, Longitude float, Horario_Inicio time, Horario_Fim time, Calorias_Gastas float, Peso_atual float, fk_tipo_de_exercicio_Codigo int, fk_Usuario_RG int, fk_Sensor_Codigo_Sensor int, fk_Tenis_Codigo_Tenis int );
 
 ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_1 FOREIGN KEY (fk_tipo_de_exercicio_Codigo) REFERENCES tipo_de_exercicio (Codigo) ON DELETE RESTRICT;
 
@@ -296,8 +296,8 @@ CREATE TABLE tipo_de_exercicio (
 CREATE TABLE Exercicio (
     data_inicio date,
     data_fim date,
-    Latitude varchar(30),
-    Longitude varchar(30),
+    Latitude float,
+    Longitude float,
     Horario_Inicio time,
     Horario_Fim time,
     Calorias_Gastas float,
