@@ -345,6 +345,7 @@ INSERT INTO EXERCICIO(data_inicio,data_fim,latitude,longitude,horario_inicio,hor
 
 ## Marco de Entrega 08 em: (29/05/2019)<br>
 
+
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
