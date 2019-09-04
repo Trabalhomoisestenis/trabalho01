@@ -147,6 +147,7 @@ Tipo de Exercícios: Tabela que armazena as informações relativas a cada exerc
 ![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/logicon.png)
 ### 7	MODELO FÍSICO<br>
        
+       j
 
 CREATE TABLE Usuario (
     RG int PRIMARY KEY,
