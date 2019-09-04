@@ -144,7 +144,7 @@ Tipo de Exercícios: Tabela que armazena as informações relativas a cada exerc
 ## Marco de Entrega 06 em: (22/05/2019)<br>
 
 ### 6	MODELO LÓGICO<br>
-![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/logicon.png)
+![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/logiconn.png)
 ### 7	MODELO FÍSICO<br>
        
        j
