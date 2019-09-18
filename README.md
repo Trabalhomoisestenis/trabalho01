@@ -84,7 +84,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/brmodelololo.png)
+![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/picmodeconc.png)
     B) QUALIDADE 
         Garantir que a semântica dos atributos seja clara no esquema
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
@@ -144,7 +144,7 @@ Tipo de Exercícios: Tabela que armazena as informações relativas a cada exerc
 ## Marco de Entrega 06 em: (22/05/2019)<br>
 
 ### 6	MODELO LÓGICO<br>
-![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/logiconn.png)
+![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/picmodelog.png)
 ### 7	MODELO FÍSICO<br>
        
        j
