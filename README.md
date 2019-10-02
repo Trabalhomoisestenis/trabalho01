@@ -69,7 +69,8 @@ Relatorio que informe a media de calorias gastas de um usuario
     
     
     
-    (    https://github.com/Trabalhomoisestenis/trabalho01/blob/master/shoestabela.ods)
+    
+  (https://github.com/Trabalhomoisestenis/trabalho01/blob/master/shoestabela.ods)
 
 ## Marco de Entrega 04 em: (15/05/2019)<br>
 
