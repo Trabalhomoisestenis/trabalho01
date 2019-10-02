@@ -31,9 +31,7 @@ cujos elementos são propriedades que desejamos incluir, processar, armazenar,
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 > O sistema proposto para os tênis "shoesqdele" conterá as informações aqui detalhadas. Serão
-armazenados do usuario: nome,idade,sexo,altura, rg, peso inicial do usuário, e modelo de tenis que usa. Após isso
-serão armazenados pelos sensores: seu código, as coordenadas de distância que o usuário percorre e as calorias gastas e
-tempo de exercício feito.Dos tenis serao guardados os seguintes dados:o nome do modelo e o tamanho. Do exercicio serão armazenados: O nome e a quantidade media de calorias gastas por hora. 
+armazenados do usuario: nome,data de nascimento,sexo,altura inicial de seu progresso, rg, peso inicial. Ao longo do tempo o usuário será capaz de atualizar os valores de seu peso e sua altura  e as respectivas datas da mudança.Serão armazenados pelo sensor: seu código, as coordenadas do percurso do usuário ao longo da prática de seu exercicio e tempo de exercício feito. Dos tenis serao guardados os seguintes dados:o nome do modelo e o seu código, além de sua especialidade. Do tipo de exercicio serão armazenados: O nome do exercício e a quantidade media de calorias gastas por hora.
 
 ## Marco de Entrega 01 em: (06/05/2019)<br>
 
@@ -52,15 +50,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 > A Empresa tenON precisa inicialmente dos seguintes relatórios:
+*Relatório que informe o desempenho do usuário após a atividade física incluindo as calorias gastas, distância percorrida e o tempo gasto.
+Relatório que informe os tênis mais usados pelos usuários para fazer os exercícios
+Relatorio que informe os  exercicios mais realizados pelos usuarios
+Relatorio que informe a media de calorias gastas de um usuario
+*Relatório que informe o progresso do peso do usuário de acordo com sua meta mensal
 
-*Relatório que informe o desempenho do usuário no dia em que ele praticou atividades físicas incluindo as calorias gastas, distância percorrida e o tênis utilizado
-
-*Relatório que informe os tênis mais apropriados para cade tipo de exercício.
-
-*Relatório que informe os exercícios mais apropriados para a meta mensal do usuário contendo as informações de calorias recomendadas e o tempo recomendado de exercício por dia.
-
-*Relatório que informe o progresso feito por cada usuário em um mês em relação a sua meta escolhida incluindo as seguintes informações: Nome do usuário, Meta de calorias, calorias perdidas.
- 
 ## Marco de Entrega 03 em: (13/05/2019)<br>
 
 #### 4.2 TABELA DE DADOS DO SISTEMA:
