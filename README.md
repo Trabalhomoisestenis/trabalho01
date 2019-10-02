@@ -95,19 +95,37 @@ Relatorio que informe a media de calorias gastas de um usuario
 ## Marco de Entrega 05 em: (20/05/2019)<br>
 
 #### 5.2 DESCRIÇÃO DOS DADOS 
+
+   PESO: Tabela que armazena as informações relativas ao peso do usuário ao longo do tempo.
+   	
+	Codigo_peso: campo que armazena o código do peso registrado.
+	
+	Peso: campo que armazena o peso registrado pelo usuário.
+	
+	Data_registro: Data do armazenamento do peso.
+
+
+
+
+   Altura: Tabela que armazena as informações relativas a altura do usuário ao longo do tempo.
+   	
+	Codigo_altura: campo que armazena o código da altura registrada.
+	
+	Altura: campo que armazena a altura registrada pelo usuário.
+	
+	Data_registro: Data do armazenamento da altura.
+	
+	
    USUÁRIO: Tabela que armazena as informações relativas ao usuário.
 
 	RG: Campo que armazena o número do Registro Geral de cada usuário.
 	
 	Nome: Campo que armazena o nome do usuário.
 
-	Idade: Campo que armazena a idade do usuário.
-	
-	Peso Inicial: Campo que armazena o peso inicial do usuário ao entrar no aplicativo.
+	Data_nascimento: Campo que armazena a data de nascimento do usuário.
 
 	Sexo: Campo que armazena o sexo do usuário.
 	
-	Altura: Campo que armazena a altura do usuário
 
 
 
@@ -117,7 +135,13 @@ TÊNIS: Tabela que armazena as informações relativas ao tênis adquirido pelo 
 
 	Modelo: Campo que armazena o modelo do tênis.
 
-	Especialidade: Campo que armazena a especialidade do exercício do tênis.
+	
+ESPECIALIDADE_TENIS: Tabela que armazena as informações relativas a especialidade de cada modelo de tênis.
+	
+	codigo_especialidade: campo que armazena o código da especialidade do tênis.
+	
+	nome_especialidade: campo que armazena o nome da especialidade do tênis.
+
 
 
 
@@ -135,7 +159,19 @@ Tipo de Exercícios: Tabela que armazena as informações relativas a cada exerc
 	que aquele exercício específico promove 
 	
 	Código: Campo que armazena o código do exercício
-    
+
+
+EXERCÍCIO: Tabela que armazena as informações do usuário/tipo_de_exercício/tênis/sensor durante a prática de uma atividade.
+
+	Data: Data do início da prática da atividade.
+	
+	Latitude: Coordenada de localização da posição do usuário ao longo do exercício.
+	
+	Longitude: Coordenada de localização da posição do usuário ao longo do exercício.
+	
+	Tempo: Contagem do tempo que o usuário gastou para realizar o exercício.
+
+	
   
 ## Marco de Entrega 06 em: (22/05/2019)<br>
 
