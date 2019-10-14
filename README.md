@@ -179,21 +179,20 @@ EXERCÍCIO: Tabela que armazena as informações do usuário/tipo_de_exercício/
 ![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/tonga.png)
 ### 7	MODELO FÍSICO<br>
        
-       j
+/* Lógico_1: */
+jj
 
 CREATE TABLE Usuario (
     RG int PRIMARY KEY,
     Nome varchar(100),
-    Idade int,
-    Peso_Inicial float,
-    Sexo char(1),
-    Altura float
+    Data_nascimento Date,
+    Sexo char(1)
 );
 
 CREATE TABLE Tenis (
     Codigo_Tenis int PRIMARY KEY,
     Modelo varchar(40),
-    Especialidade varchar(100)
+    fk_especialidade_tenis_Codigo_espcialidade int
 );
 
 CREATE TABLE Sensor (
@@ -202,24 +201,74 @@ CREATE TABLE Sensor (
 
 CREATE TABLE tipo_de_exercicio (
     Nome varchar(40),
-    calorias_horas float,
+    Calorias_gastas_por_hora float,
     Codigo int PRIMARY KEY
 );
 
 CREATE TABLE Exercicio (
-    data_inicio date,
-    data_fim date,
+    Data date,
     Latitude float,
     Longitude float,
-    Horario_Inicio time,
-    Horario_Fim time,
-    Calorias_Gastas float,
-    Peso_atual float,
+    tempo time,
     fk_tipo_de_exercicio_Codigo int,
     fk_Usuario_RG int,
     fk_Sensor_Codigo_Sensor int,
     fk_Tenis_Codigo_Tenis int
 );
+
+CREATE TABLE especialidade_tenis (
+    Nome_especialidade varchar(100),
+    Codigo_espcialidade int PRIMARY KEY
+);
+
+CREATE TABLE Pesos_usuarios (
+    Peso float,
+    data_registro date,
+    Codigo_peso int PRIMARY KEY,
+    fk_Usuario_RG int
+);
+
+CREATE TABLE Altura_usuarios (
+    data_registro date,
+    Altura float,
+    codigo_altura int PRIMARY KEY,
+    fk_Usuario_RG int
+);
+
+CREATE TABLE Meta_mensal_usuario (
+    Calorias float,
+    Codigo_meta int PRIMARY KEY,
+    data_registro Date,
+    fk_Usuario_RG int
+);
+
+CREATE TABLE Endereco (
+    cep int PRIMARY KEY,
+    fk_Usuario_RG int,
+    fk_Bairro_Id int,
+    fk_Municipio_id int,
+    fk_Estado_id int
+);
+
+CREATE TABLE Estado (
+    id int PRIMARY KEY,
+    Nome varchar(100)
+);
+
+CREATE TABLE Municipio (
+    id int PRIMARY KEY,
+    Nome varchar(100)
+);
+
+CREATE TABLE Bairro (
+    Id int PRIMARY KEY,
+    Nome varchar(100)
+);
+ 
+ALTER TABLE Tenis ADD CONSTRAINT FK_Tenis_2
+    FOREIGN KEY (fk_especialidade_tenis_Codigo_espcialidade)
+    REFERENCES especialidade_tenis (Codigo_espcialidade)
+    ON DELETE RESTRICT;
  
 ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_1
     FOREIGN KEY (fk_tipo_de_exercicio_Codigo)
@@ -240,6 +289,41 @@ ALTER TABLE Exercicio ADD CONSTRAINT FK_Exercicio_4
     FOREIGN KEY (fk_Tenis_Codigo_Tenis)
     REFERENCES Tenis (Codigo_Tenis)
     ON DELETE RESTRICT;
+ 
+ALTER TABLE Pesos_usuarios ADD CONSTRAINT FK_Pesos_usuarios_2
+    FOREIGN KEY (fk_Usuario_RG)
+    REFERENCES Usuario (RG)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Altura_usuarios ADD CONSTRAINT FK_Altura_usuarios_2
+    FOREIGN KEY (fk_Usuario_RG)
+    REFERENCES Usuario (RG)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Meta_mensal_usuario ADD CONSTRAINT FK_Meta_mensal_usuario_2
+    FOREIGN KEY (fk_Usuario_RG)
+    REFERENCES Usuario (RG)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Endereco ADD CONSTRAINT FK_Endereco_2
+    FOREIGN KEY (fk_Usuario_RG)
+    REFERENCES Usuario (RG)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Endereco ADD CONSTRAINT FK_Endereco_3
+    FOREIGN KEY (fk_Bairro_Id)
+    REFERENCES Bairro (Id)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Endereco ADD CONSTRAINT FK_Endereco_4
+    FOREIGN KEY (fk_Municipio_id)
+    REFERENCES Municipio (id)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Endereco ADD CONSTRAINT FK_Endereco_5
+    FOREIGN KEY (fk_Estado_id)
+    REFERENCES Estado (id)
+    ON DELETE CASCADE;
 ## Marco de Entrega 07 em: (27/05/2019)<br>
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
