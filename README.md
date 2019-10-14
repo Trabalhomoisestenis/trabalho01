@@ -49,12 +49,23 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa tenON precisa inicialmente dos seguintes relatórios:
-*Relatório que informe o desempenho do usuário após a atividade física incluindo as calorias gastas, distância percorrida e o tempo gasto.
-Relatório que informe os tênis mais usados pelos usuários para fazer os exercícios
-Relatorio que informe os  exercicios mais realizados pelos usuarios
-Relatorio que informe a media de calorias gastas de um usuario
+>*Relatório que informe o desempenho do usuário após a atividade física incluindo as calorias gastas, distância percorrida e o tempo gasto. 
+
+
+
 *Relatório que informe o progresso do peso do usuário de acordo com sua meta mensal
+
+
+
+*Relatório que informe o progresso da altura do usuário
+
+
+
+*Relatorio que informe as calorias que faltam para o usuário atingir sua meta
+
+
+
+*Relatório que informe os exercicios mais apropriados para o usuário cumprir a meta
 
 ## Marco de Entrega 03 em: (13/05/2019)<br>
 
