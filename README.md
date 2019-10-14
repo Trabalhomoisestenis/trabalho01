@@ -170,8 +170,33 @@ EXERCÍCIO: Tabela que armazena as informações do usuário/tipo_de_exercício/
 	Longitude: Coordenada de localização da posição do usuário ao longo do exercício.
 	
 	Tempo: Contagem do tempo que o usuário gastou para realizar o exercício.
-
 	
+	
+Endereço:Tabela que armazena o cep do usuario. 	
+	
+	cep: Campo que armazena o cep do usuario
+	
+	
+Município : Tabela que armazena as informações relativas ao município do usuário.
+	
+	id: Campo que armazena o id do município	
+	
+	nome: Campo que armazena o nome do município
+	
+Estado : Tabela que armazena as informações relativas ao Estado do usuário.
+
+	id: Campo que armazena o id do Estado	
+	
+	nome: Campo que armazena o nome do Estado
+	
+Bairro: Tabela que armazena as informações relativas ao Bairro do usuário.
+
+	id: Campo que armazena o id do Bairro	
+	
+	nome: Campo que armazena o nome do Bairro
+
+
+																				
   
 ## Marco de Entrega 06 em: (22/05/2019)<br>
 
