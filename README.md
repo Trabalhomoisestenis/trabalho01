@@ -176,7 +176,7 @@ EXERCÍCIO: Tabela que armazena as informações do usuário/tipo_de_exercício/
 ## Marco de Entrega 06 em: (22/05/2019)<br>
 
 ### 6	MODELO LÓGICO<br>
-![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/picmodelog.png)
+![Alt text](https://github.com/Trabalhomoisestenis/trabalho01/blob/master/tonga.png)
 ### 7	MODELO FÍSICO<br>
        
        j
