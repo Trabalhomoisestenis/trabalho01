@@ -46,10 +46,10 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ## Marco de Entrega 02 em: (08/05/2019)<br>
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
->*Relatório que informe o desempenho do usuário após a atividade física incluindo as calorias gastas, distância percorrida e o tempo gasto. 
+  
+
+
+*Relatório que informe o desempenho do usuário após a atividade física incluindo as calorias gastas, distância percorrida e o tempo gasto. 
 
 
 
