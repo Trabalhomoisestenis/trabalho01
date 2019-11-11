@@ -365,19 +365,7 @@ ALTER TABLE Endereco ADD CONSTRAINT FK_Endereco_5
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
 
-INSERT INTO SENSOR(codigo_sensor) VALUES(4321),(5432),(6543),(7654),(8765),(9876),(1987),(2987),(3987),(4874);
-
-
-INSERT INTO tipo_de_exercicio (codigo,nome,calorias_horas) VALUES (1,'futebol',760),(2,'basquete',584),(3,'corrida_obstaculo',715),(4,'golfe',315),(5,'volei',350),(6,'tenis',610),(7,'corrida',610),(8,'futebol americano',580),(9,'remo',470),(10,'caminhada',440); 
-
-INSERT INTO USUARIO (rg,nome,idade,peso_inicial,sexo,altura) VALUES (12345,'Calebe',17,59,'M',1.71),(23456,'Davi',15,60,'M',1.75),(34567,'Alessandra',25,65,'F',1.82),(45678,'Rodolfo',22,71,'M',1.71),(56789,'Gustavo',33,82,'M',1.82),(67890,'Buteri',13,47,'M',1.73),(11234,'Maira',18,58,'F',1.91),(22345,'Rosilene',31,67,'F',1.55),(33456,'Felipe Noronha',27,62,'M',1.7),(44567,'Pedro',60,35,'M',1.61)
-
-
-INSERT INTO TENIS (Codigo_tenis, Modelo, especialidade) VALUES (1010, 'Nike1v9', 'futebol'), (2020, 'Penalty', 'basquete'),(3030, 'Adidas3', 'volei'),(4040, 'Hypervenom', 'corrida'),(5050, 'Umbro', 'Golfe'),(6060, 'Puma', 'Corrida'),(7070, 'Umbro2', 'futebol'),(8080, 'Havaianas', 'futsal'),(9090, 'Nike', 'corrida'),(1212, 'Adidas2', 'Basquete');
-
-
-INSERT INTO EXERCICIO(data_inicio,data_fim,latitude,longitude,horario_inicio,horario_fim,calorias_gastas,peso_atual,fk_tipo_de_exercicio_codigo,fk_usuario_rg,fk_sensor_codigo_sensor,fk_tenis_codigo_tenis) VALUES('2019-06-30','2019-06-30',-23.6506557,-46.5603576,'16:00','17:00',760,59,1,12345,4321,1010),('2019-07-01','2019-07-01',-19.9215223,-43.9340913,'17:00','18:00',584,60,2,23456,5432,2020),('2019-07-02','2019-07-02',34.0326511,-118.4602074,'18:00','19:00',715,65,3,34567,6543,3030),('2019-07-03','2019-07-03',33.8993738,-118.3787682,'19:00','20:00',315,71,4,45678,7654,4040),('2019-07-04','2019-07-04',37.4030185,-122.3212805,'20:00','21:00',350,82,5,56789,8765,5050),('2019-07-05','2019-07-05',24.3781314,-80.4603501,'21:00','22:00',610,47,6,67890,9876,6060),('2019-07-06','2019-07-06',22.3531176,113.8475127,'22:00','23:00',610,58,7,11234,1987,7070),('2019-07-07','2019-07-07',25.0000188,-71.0087548,'23:00','00:00',580,67,8,22345,2987,8080),('2019-07-08','2019-07-09',-25.7663566,-49.7417204,'00:00','01:00',470,62,9,33456,3987,9090),('2019-07-09','2019-07-09',43.7184038,-79.5181409,'01:00','02:00',440,35,10,44567,4874,1212);
-
+https://github.com/Trabalhomoisestenis/trabalho01/blob/master/querovedapau.ipynb
 
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS 
